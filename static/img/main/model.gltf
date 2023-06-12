@@ -4,7 +4,6 @@
 		"version":"2.0"
 	},
 	"extensionsUsed":[
-		"KHR_materials_transmission",
 		"KHR_materials_specular",
 		"KHR_materials_ior"
 	],
@@ -99,6 +98,7 @@
 			}
 		},
 		{
+			"alphaMode":"BLEND",
 			"doubleSided":true,
 			"name":"Right_Base",
 			"pbrMetallicRoughness":{
@@ -114,15 +114,17 @@
 		},
 		{
 			"doubleSided":true,
+			"emissiveFactor":[
+				0.17135724857849421,
+				0.09951512492024595,
+				0.010698526821396714
+			],
 			"extensions":{
-				"KHR_materials_transmission":{
-					"transmissionFactor":0.13595163822174072
-				},
 				"KHR_materials_specular":{
 					"specularColorFactor":[
-						1.5101836518983784,
-						1.5101836518983784,
-						1.5101836518983784
+						1.8237821688427587,
+						1.5763590695486316,
+						0.8682541035237399
 					]
 				},
 				"KHR_materials_ior":{
@@ -133,11 +135,11 @@
 			"pbrMetallicRoughness":{
 				"baseColorFactor":[
 					0.8713665008544922,
-					0.6959441304206848,
-					0.22351473569869995,
+					0.6670569181442261,
+					0.08233936131000519,
 					1
 				],
-				"roughnessFactor":0.5
+				"roughnessFactor":0.7837837934494019
 			}
 		}
 	],
